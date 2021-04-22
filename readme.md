@@ -1,6 +1,6 @@
 # kada
 
-Simple react-native navigation and API fetching project
+Simple product app built with `React-Native`, `Native-Base` and `Redux`
 
 ![Slider](./screenshots/kada-slider.jpeg 'Slider')
 ![Create post](./screenshots/kada-products.jpeg 'Products')

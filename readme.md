@@ -34,12 +34,11 @@ Not that there's a staging server at this point, but it's an example of how to c
 
 ### Navigation
 
-The sole method of navigation is native-base's drawe navigation, Routes are loaded into the call stack and naviagation is executed by clicking the items on the left drawer bar
+The sole method of navigation is native-base's drawer navigation, Routes are loaded into the navigation stack and naviagation is executed by clicking the items on the left drawer bar which pushes and pops routes under the hood
 
 #### Flux
 
-The Components use Actions. Actions tend to use the API Services and dispatch an event. The Stores are listening to the events. The Components add and remove listeners to the Stores.
-The Flux library of choice for this project is Redux
+The Components use Actions. Actions tend to use the API Services and dispatch an event. The Stores are listening to the events. The Components add and remove listeners to the Stores.The Flux library of choice for this app is `Redux`
 
 #### API
 

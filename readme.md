@@ -43,7 +43,9 @@ The Flux library of choice for this project is Redux
 
 #### API
 
-It uses fetch API to do HTTP requests and sets headers and other things like that.
+This project uses FETCH API to handle HTTP requests and sets headers and other things
+
+
 
 ```typescript
 const buildQueryString = queryObject =>

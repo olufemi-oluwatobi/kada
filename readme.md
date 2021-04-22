@@ -34,7 +34,7 @@ Not that there's a staging server at this point, but it's an example of how to c
 
 ### Navigation
 
-The sole method of navigation (what's showing on the screen and where the back button goes) is via urls. We parse urls to determine the route stack. There is some stuff to make "related" url navigation look "right" (push and pop). Making everything addressable by URL is great for deep linking and forces each screen to be able to load all on it's own from simple data.
+The sole method of navigation is native-base's drawe navigation, Routes are loaded into the call stack and naviagation is executed by clicking the items on the left drawer bar
 
 #### Flux
 
